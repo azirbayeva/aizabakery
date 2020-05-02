@@ -36,19 +36,7 @@
 <a href="mailto:aizasbakery@gmail.com">Aiza's Bakery</a>
         </footer>
     </div>
-    <script>
-        window.onscroll = function() {navStickFunction()};
-
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
-
-        function navStickFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
-            }
-        }
+    <script src="./sticynav.js">
     </script>
 </body>
 </html>
