@@ -8,27 +8,35 @@ header {background-color: #F3EEEE;
         }
 
 h1 {position: relative;
-    
+    top: 0;
     left: 10px;
     margin-top: 1em;
     font-size: 3em;
 
 }
-nav li{display: inline;
+
+
+
+.navbar ul{  
+    top: 160px; 
+    width: 100%;
+    background-color: #F3EEEE;
+    display: block; 
+}
+.navbar li{display: inline;
     padding-inline-start: 150px;
     font-family: Neuton Serif ;
     
 }
-nav a {position: relative;
+.navbar a {position: relative;
     top: -15px;
-    padding-bottom: 1em;
     text-decoration: none; 
-    padding: .5px;
+    padding: 5px;
     font-size: 20px;
     font-weight: bold; }
-nav a:link { color: #2C1B19;}
-nav a:visited { color: rgb(185, 161, 129); }
-nav a:hover { color: rgb(138, 101, 28); }
+.navbar a:link { color: #2C1B19;}
+.navbar a:visited { color: rgb(185, 161, 129); }
+.navbar a:hover { color: rgb(138, 101, 28); }
 
 footer { background-color: #F3EEEE;
     font-size: .60em;
@@ -37,7 +45,11 @@ footer { background-color: #F3EEEE;
 
 #logo{ align-self: center;
 }
-form {align-content: center;}
+
+.center {position: absolute;
+    top: 50%;
+    left: 50%;
+}
 label { float: left;
     display: block;
     width: 8em;
@@ -47,3 +59,4 @@ input, textarea { margin-bottom: 1em;
             display: block;
 }
 #mySubmit { margin-left: 10em; }
+
