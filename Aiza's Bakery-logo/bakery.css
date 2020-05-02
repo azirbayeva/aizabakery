@@ -38,6 +38,20 @@ h1 {position: relative;
 .navbar a:visited { color: rgb(185, 161, 129); }
 .navbar a:hover { color: rgb(138, 101, 28); }
 
+.sticky {
+    position: fixed;
+    top : 0;
+    width: 100%;
+    background-color: #F3EEEE;
+}
+
+/* .content {
+    padding: 16px;
+}
+.sticky + .content {
+    padding-top: 60px;
+} */
+
 footer { background-color: #F3EEEE;
     font-size: .60em;
     font-style: italic;
