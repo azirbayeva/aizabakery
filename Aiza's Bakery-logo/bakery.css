@@ -40,9 +40,10 @@ h1 {position: relative;
 
 .sticky {
     position: fixed;
-    top : 0;
+    top : 5px;
     width: 100%;
     background-color: #F3EEEE;
+    z-index: 1;
 }
 
 /* .content {
@@ -55,9 +56,28 @@ h1 {position: relative;
 footer { background-color: #F3EEEE;
     font-size: .60em;
     font-style: italic;
+    height: 2.5rem; 
+    width: 100%;
     text-align: center;}
 
 #logo{ align-self: center;
+}
+
+.split {
+    width: 50%;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+  /* Control the left side */
+.left {
+left: 20px;
+}
+
+/* Control the right side */
+.right {
+right: 20px;
 }
 
 .center {position: absolute;

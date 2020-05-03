@@ -11,7 +11,6 @@
     <title>Aiza's Bakery-Gallery</title>
 </head>
 <body>
-    
     <div id = "wrapper">
         <header>
             
@@ -28,7 +27,13 @@
         </nav>
         </header>
         <main>
-            <div class="fotorama" data-fit="cover" data-height="900" data-nav="thumbs" data-autoplay="4000">
+            <div class="fotorama"
+                data-fit="contain"
+                data-width="700"
+                data-maxwidth="100%"
+                data-height="800"
+                data-nav="thumbs"
+                data-autoplay="4000">
                 <img src="images/ellieelien-Rejlvd47WjI-unsplash.jpg">
                 <img src="images/holly-stratton-ttY5ZD2O3h8-unsplash.jpg">
                 <img src="images/james-coleman-5HR1gItc7Gs-unsplash.jpg">
@@ -40,11 +45,12 @@
                 
               </div>
         </main>
-        <footer>
+        <footer class="footer">
             <hr>
             Copyright &copy; 2020 Aiza's Bakery<br>
-<a href="mailto:aizasbakery@gmail.com">Aiza's Bakery</a>
+            <a href="mailto:aizasbakery@gmail.com">Aiza's Bakery</a>
         </footer>
     </div>
+    <script src="./sticynav.js"></script>
 </body>
 </html>
