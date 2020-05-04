@@ -16,12 +16,14 @@ h1 {position: relative;
 }
 
 
-
-.navbar ul{  
-    top: 160px; 
+.navbar{
+    border: 0px;
+    border-color : #F3EEEE;
+}
+.navbar-ul{  
     width: 100%;
+    border-color : #F3EEEE;
     background-color: #F3EEEE;
-    display: block; 
 }
 .navbar li{display: inline;
     padding-inline-start: 150px;
@@ -29,13 +31,13 @@ h1 {position: relative;
     
 }
 .navbar a {position: relative;
-    top: -15px;
+    bottom: 2px;
     text-decoration: none; 
-    padding: 5px;
+    padding: 1px;
     font-size: 20px;
     font-weight: bold; }
 .navbar a:link { color: #2C1B19;}
-.navbar a:visited { color: rgb(185, 161, 129); }
+.navbar a:visited { color: #2C1B19; }
 .navbar a:hover { color: rgb(138, 101, 28); }
 
 .sticky {
@@ -94,3 +96,31 @@ input, textarea { margin-bottom: 1em;
 }
 #mySubmit { margin-left: 10em; }
 
+.col-sm-4 .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background:transparent;
+    color: #2C1B19;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #F3EEEE;
+    font-family: Neuton Serif;
+    font-weight: bold;
+    
+  }
+
+  /* change the background color */
+.navbar-custom {
+    background-color: #F3EEEE;
+}
+
+.nav-link {
+    font-weight: bold;
+}
