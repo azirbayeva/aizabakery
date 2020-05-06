@@ -76,11 +76,12 @@ footer { background-color: #F3EEEE;
     width: 100%;
     text-align: center;
     color: #2C1B19;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
     
 }
 
-#logo{ align-self: center;
-}
+
 
 .split {
     width: 50%;
