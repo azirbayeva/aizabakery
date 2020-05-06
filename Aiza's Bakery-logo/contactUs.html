@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Aiza's Bakery</title>
-    <meta charset="utf-8">
     
-    <link rel="stylesheet" href="bakery.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="bakery.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Aiza's Bakery</title>
 </head>
+
 <body>
     
 <div class="container-fluid">
-        <header>
-            <h1 id = "logo"><img src = "profile.png" alt = "Aiza's Bakery" width = "100" height = "100">Aiza's Bakery</h1>
+    
+    <header>
+            
+        <a class="nav-link" href="index.html"><h1 id = "logo"><img src = "profile.png"  alt = "Aiza's Bakery" width = "100" height = "100"><span style="color:#2C1B19;font-weight:bold">Aiza's Bakery</span></h1></a>
         
-        <nav class="navbar" >
-            <div >
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shopMenu.html">Shop Menu</a></li>
-                <li><a href="birthdayMenu.html">Birthday Menu</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contactUs.html">Contact</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-md navbar-light navbar-custom">
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+            aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="collapsibleNavbar">
+                <ul class="nav navbar-nav"> 
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shopMenu.html">Shop Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="birthdayMenu.html">Birthday Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactUs.html">Contact</a></li>
+                </ul>
             </div>
         </nav>
-        </header>
+    </header>
         <div class="row">
         <div class="col">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9903263863894!2d-73.98570108467574!3d40.74023837932881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a0ab7d89eb%3A0xbf87ad431830f203!2s55%20Lexington%20Ave%2C%20New%20York%2C%20NY%2010010!5e0!3m2!1sen!2sus!4v1588189359313!5m2!1sen!2sus" 
              width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
-        <div class="col" id="feedbackForm">
+            <div class="col" id="feedbackForm">
                 <h3>Help us improve our service for your best experience. </h3>
                 <p>Please fill the below form to share your experience</p> <br>
                 <form action="" method="post" >
@@ -49,26 +60,30 @@
                     pattern="\d{3}[\-]\d{3}[\-]\d{4}" required><br>
 
                     <label for = "myComments" >Comments:</label>
-                    <textarea name="myComments" rows="3"  required></textarea>
-                    <input type="submit"  class="form-control" value="Submit"  >
+                    <textarea name="myComments" rows="3"  cols="50" required></textarea>
+                    <input type="submit"  class="form-control" value="Submit" >
 
                 </form>
-        </div>
+            </div>
         <div class="col" id = "lookingForward">
                 <p>Thanks we are looking forward to seeing you</p>
         </div>
-    </div>
+        </div>
 <footer >
     <hr>
     Copyright &copy; 2020 Aiza's Bakery<br>
     <a href="mailto:aizasbakery@gmail.com">Aiza's Bakery</a>
 </footer>
 </div>
-    <!-- <script>
-        bootstrapValidate('#email', 'email: Enter in a valid email address');
+    <script>
+        // bootstrapValidate('#email', 'email: Enter in a valid email address');
   
-    </script> -->
+    </script>
     <script src="./sticynav.js"></script>
-    <script src="./query.js"></script>
+    <script src="./query.js"></script>              
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

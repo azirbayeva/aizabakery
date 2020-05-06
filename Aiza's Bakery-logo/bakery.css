@@ -1,11 +1,13 @@
 
-body {background-color: white;
+body {background-color: whitesmoke;
     color: #2C1B19;
     font-family: Neuton Serif;
 }
 header {background-color: #F3EEEE;
         height: 100;
+        width: 100%;
         }
+header a {text-decoration: none;}
 
 h1 {position: relative;
     top: 0;
@@ -35,10 +37,21 @@ h1 {position: relative;
     text-decoration: none; 
     padding: 1px;
     font-size: 20px;
-    font-weight: bold; }
-.navbar a:link { color: #2C1B19;}
-.navbar a:visited { color: #2C1B19; }
-.navbar a:hover { color: rgb(138, 101, 28); }
+    font-weight: bold;
+    color: #2C1B19;
+ }
+
+
+.nav-link a {
+    font-weight: bold;
+    color: #2C1B19;
+}
+.navbar-custom .navbar-nav .nav-link{
+	color:#2C1B19;}
+
+/* .nav .navbar-nav .nav-item a {color:#2C1B19;} */
+
+
 
 .sticky {
     position: fixed;
@@ -47,7 +60,7 @@ h1 {position: relative;
     background-color: #F3EEEE;
     z-index: 1;
 }
-
+ 
 /* .content {
     padding: 16px;
 }
@@ -56,11 +69,14 @@ h1 {position: relative;
 } */
 
 footer { background-color: #F3EEEE;
-    font-size: .60em;
+    font-size: .70em;
     font-style: italic;
-    height: 2.5rem; 
+    bottom: 0;
     width: 100%;
-    text-align: center;}
+    text-align: center;
+    color: #2C1B19;
+    
+}
 
 #logo{ align-self: center;
 }
@@ -94,7 +110,8 @@ label { float: left;
 input, textarea { margin-bottom: 1em;
             display: block;
 }
-#mySubmit { margin-left: 10em; }
+#mySubmit { margin-left: 10em; 
+            }
 
 .col-sm-4 .btn {
     position: absolute;
@@ -117,10 +134,5 @@ input, textarea { margin-bottom: 1em;
   }
 
   /* change the background color */
-.navbar-custom {
-    background-color: #F3EEEE;
-}
 
-.nav-link {
-    font-weight: bold;
-}
+iframe{ padding-top: 2em;}
