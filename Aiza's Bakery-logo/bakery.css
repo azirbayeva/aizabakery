@@ -17,8 +17,6 @@ h1 {position: relative;
 
 }
 
-
-
 .navbar{
     border: 0px;
     border-color : #F3EEEE;
@@ -36,10 +34,6 @@ h1 {position: relative;
 @media all and (min-width: 769px) and (max-width : 1023px) {
     .navbar li{padding-inline-start: 40px;}
     }
-
-/* @media all and (min-width: 600px) and (max-width : 899px) {
-    .navbar li{padding-inline-start: 40px;}
-    } */
 
 .navbar li {
     display: inline;
@@ -74,13 +68,6 @@ h1 {position: relative;
     background-color: #F3EEEE;
     z-index: 1;
 }
- 
-/* .content {
-    padding: 16px;
-}
-.sticky + .content {
-    padding-top: 60px;
-} */
 
 footer { background-color: #F3EEEE;
     font-size: .70em;
@@ -149,5 +136,4 @@ input, textarea { margin-bottom: 1em;
   }
 
   /* change the background color */
-
 iframe{ padding-top: 2em;}
