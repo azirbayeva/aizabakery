@@ -28,11 +28,24 @@ h1 {position: relative;
     border-color : #F3EEEE;
     background-color: #F3EEEE;
 }
-.navbar li{display: inline;
-    padding-inline-start: 150px;
+
+@media all and (min-width : 1024px) {
+    .navbar li{padding-inline-start: 90px;}
+    }
+
+@media all and (min-width: 769px) and (max-width : 1023px) {
+    .navbar li{padding-inline-start: 40px;}
+    }
+
+/* @media all and (min-width: 600px) and (max-width : 899px) {
+    .navbar li{padding-inline-start: 40px;}
+    } */
+
+.navbar li {
+    display: inline;
     font-family: Neuton Serif ;
-    
 }
+
 .navbar a {position: relative;
     bottom: 2px;
     text-decoration: none; 
