@@ -6,7 +6,7 @@ body {background-color: whitesmoke;
 header {background-color: #F3EEEE;
         height: 100;
         width: 100%;
-        }
+}
 header a {text-decoration: none;}
 
 h1 {position: relative;
@@ -79,6 +79,7 @@ footer { background-color: #F3EEEE;
     color: #2C1B19;
     padding-bottom: 1em;
     margin-bottom: 1em;
+    position: relative;
     
 }
 
@@ -115,6 +116,8 @@ input, textarea { margin-bottom: 1em;
 }
 #mySubmit { margin-left: 10em; 
             }
+.row {padding-top: 1em;
+    padding-right: .5em;}
 
 .col-sm-4 .btn {
     position: absolute;
@@ -136,7 +139,8 @@ input, textarea { margin-bottom: 1em;
     
   }
 
-  /* change the background color */
+  
 iframe{ padding-top: 4em;
-    padding-left: 2.5em;
+    padding-left: 2em;
 }
+.fotorama {padding-top: 1em;}
