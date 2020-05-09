@@ -14,8 +14,9 @@ h1 {position: relative;
     left: 10px;
     margin-top: 1em;
     font-size: 3em;
-
 }
+
+h3 {padding-top: 2em; }
 
 .navbar{
     border: 0px;
@@ -136,4 +137,6 @@ input, textarea { margin-bottom: 1em;
   }
 
   /* change the background color */
-iframe{ padding-top: 2em;}
+iframe{ padding-top: 4em;
+    padding-left: 2.5em;
+}
