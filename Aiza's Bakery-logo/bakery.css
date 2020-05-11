@@ -144,3 +144,8 @@ iframe{ padding-top: 4em;
     padding-left: 2em;
 }
 .fotorama {padding-top: 1em;}
+
+.shop h2 { text-align: center;
+            padding-top: 1.5em;
+            font-weight: bold;
+}
