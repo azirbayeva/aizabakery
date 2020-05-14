@@ -35,6 +35,9 @@ h3 {padding-top: 2em; }
 @media all and (min-width: 769px) and (max-width : 1023px) {
     .navbar li{padding-inline-start: 40px;}
     }
+@media only screen and (max-width: 600px) {
+    #test { display: none;}
+}
 
 .navbar li {
     display: inline;
@@ -143,9 +146,30 @@ input, textarea { margin-bottom: 1em;
 iframe{ padding-top: 4em;
     padding-left: 2em;
 }
-.fotorama {padding-top: 1em;}
+.fotorama {padding-top: 3em;}
 
 .shop h2 { text-align: center;
             padding-top: 1.5em;
             font-weight: bold;
 }
+.shop h4 { padding: 1em 1em .5em 1em;}
+
+.full-width-div {
+    position: absolute;
+    width: 100%;
+    height: 97vh;
+    left: 0;
+}
+.img img {
+            
+    height: calc(100% - 150px);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 2em;
+    padding-bottom: .7em;
+}
+.gallery { padding-top: 11em;}
+
+#test .address p {padding-left: 2em;}
